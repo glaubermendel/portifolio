@@ -1,25 +1,34 @@
 export default function Home() {
   return (
-    <main>
-      <h1>Glauber Mendel</h1>
-      <p>     Programador full stack apaixonado por desenvolvimento de
-          software e tecnologia. Tenho experiência com várias tecnologias web
-          modernas, incluindo HTML, CSS, JavaScript, React. </p>
-          
-<section>
-        <a href="/sobre" className="call-to-action">Saiba Mais</a>
-        <a href="/contato" className="call-to-action">Entre em Contato</a>
+    <main className="min-h-screen px-8 py-16 max-w-4xl mx-auto">
+
+      <section className="mb-16">
+        <h1 className="text-4xl text-nier-beige tracking-widest uppercase mb-4">
+          Glauber Mendel
+        </h1>
+        <p className="text-nier-beige/60 tracking-widest text-sm uppercase mb-8">
+          Desenvolvedor Full Stack
+        </p>
+        <div className="flex gap-4">
+          <a href="/sobre" className="border border-nier-beige text-nier-beige px-6 py-2 text-sm tracking-widest uppercase hover:bg-nier-beige hover:text-nier-black transition-colors">
+            Saiba Mais
+          </a>
+          <a href="/contato" className="border border-nier-line text-nier-beige/70 px-6 py-2 text-sm tracking-widest uppercase hover:border-nier-beige hover:text-nier-beige transition-colors">
+            Entre em Contato
+          </a>
+        </div>
       </section>
 
-      <section className="skills">
-        <h2>Habilidades</h2>
-        <ul>
-          <li>HTML, CSS e JavaScript</li>
-          <li>React e Next.js</li>
-          <li>Ruby on Rails</li>
-          <li>PostgreSQL, MongoDB e Redis</li>
-          <li>Versionamento de código com Git</li>
-          <li>Experiência em desenvolvimento ágil (Scrum)</li>
+      <section>
+        <h2 className="text-nier-beige/50 text-xs tracking-widest uppercase mb-6 border-b border-nier-line pb-2">
+          Habilidades
+        </h2>
+        <ul className="space-y-2">
+          <li className="text-nier-beige/80 text-sm tracking-wider">— HTML, CSS e JavaScript</li>
+          <li className="text-nier-beige/80 text-sm tracking-wider">— React e Next.js</li>
+          <li className="text-nier-beige/80 text-sm tracking-wider">— Ruby on Rails</li>
+          <li className="text-nier-beige/80 text-sm tracking-wider">— Versionamento de código com Git</li>
+          <li className="text-nier-beige/80 text-sm tracking-wider">— Experiência em desenvolvimento ágil (Scrum)</li>
         </ul>
       </section>
 
