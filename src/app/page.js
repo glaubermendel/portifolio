@@ -6,6 +6,7 @@ export default function Home() {
         <h1 className="text-4xl text-nier-beige tracking-widest uppercase mb-4">
           Glauber Mendel
         </h1>
+        <div className="w-16 h-px bg-nier-beige mb-6"></div>
         <p className="text-nier-beige/60 tracking-widest text-sm uppercase mb-8">
           Desenvolvedor Full Stack
         </p>

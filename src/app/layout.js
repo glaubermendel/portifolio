@@ -27,7 +27,14 @@ export default function RootLayout({ children }) {
   </nav>
 </header>
         {children}
-      </body>
+        
+      <footer className="border-t border-nier-line px-8 py-4 mt-16">
+  <p className="text-nier-beige/30 text-xs tracking-widest uppercase text-center">
+    © {new Date().getFullYear()} Glauber Mendel — Todos os direitos reservados
+  </p>
+</footer>
+</body>
+    
     </html>
   )
 }
