@@ -1,3 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-nier-black: #0a0a0a;
+  --color-nier-beige: #C8B89A;
+  --color-nier-gray: #1a1a1a;
+  --color-nier-line: #3a3a3a;
+}
+
+body {
+  background-color: var(--color-nier-black);
+  color: var(--color-nier-beige);
+}
