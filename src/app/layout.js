@@ -8,7 +8,7 @@ const mono = Share_Tech_Mono({
 
 export const metadata = {
   title: "Glauber Mendel",
-  description: "Portfólio de Desenvolvedor Web Full Stack",
+  description: "Portfólio de Desenvolvedor Full Stack",
 }
 
 export default function RootLayout({ children }) {
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <header className="flex justify-between items-center px-8 py-4 border-b border-nier-line">
   <div>
     <div className="text-nier-beige text-xl tracking-widest uppercase">Glauber Mendel</div>
-    <div className="text-nier-beige/50 text-sm tracking-widest">Programador Web Full Stack</div>
+    <div className="text-nier-beige/50 text-sm tracking-widest">Dev Full Stack</div>
   </div>
   <nav className="flex gap-8">
     <a href="/" className="text-nier-beige/70 hover:text-nier-beige tracking-widest text-sm uppercase">Início</a>
