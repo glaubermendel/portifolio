@@ -8,15 +8,9 @@ export default function Sobre() {
       
       <section className="max-w-2xl space-y-6">
         <p className="text-nier-bege/70 tracking-wider leading-relaxed text-sm">
-          Sou Glauber Mendel, desenvolvedor fullstack web/mobile em transição de carreira. 
+          Oi, sou o Glauber Mendel, desenvolvedor fullstack web/mobile em transição de carreira. 
           Com background em rotinas administrativas, atendimento e logística, mergulhei no desenvolvimento full-stack 
           através de projetos práticos e estudo intensivo.
-        </p>
-        
-        <p className="text-nier-beige/70 tracking-wider leading-relaxed text-sm">
-          Tenho facilidade natural para identificar oportunidades de aplicações em negócios reais — 
-          consigo observar um estabelecimento e perceber demandas que poderiam ser resolvidas com 
-          software simples e eficaz.
         </p>
         
         <p className="text-nier-beige/70 tracking-wider leading-relaxed text-sm">
@@ -25,9 +19,13 @@ export default function Sobre() {
           criando ferramentas que facilitam a vida de quem pensa diferente — e já estou 
           desenvolvendo ideias próprias para repositorios open-source.
         </p>
+
+        <p className="text-nier-beige/70 tracking-wider leading-relaxed text-sm">
+          Tenho facilidade natural para identificar oportunidades de aplicações em negócios reais, consigo observar um estabelecimento ou ouvir relato de uma pessoa e perceber demandas que poderiam ser resolvidas com softwares eficazes.
+        </p>
         
         <p className="text-nier-beige/70 tracking-wider leading-relaxed text-sm">
-          Buscando minha primeira oportunidade como Desenvolvedor Junior Full Stack para 
+          Buscando minha primeira oportunidade como Desenvolvedor Junior para 
           aplicar meu aprendizado em projetos reais e continuar evoluindo.
         </p>
       </section>

@@ -27,7 +27,6 @@ export default function Home() {
         <ul className="space-y-2">
           <li className="text-nier-beige/80 text-sm tracking-wider">— HTML, CSS e JavaScript</li>
           <li className="text-nier-beige/80 text-sm tracking-wider">— React e Next.js</li>
-          <li className="text-nier-beige/80 text-sm tracking-wider">— Ruby on Rails</li>
           <li className="text-nier-beige/80 text-sm tracking-wider">— Versionamento de código com Git</li>
           <li className="text-nier-beige/80 text-sm tracking-wider">— Experiência em desenvolvimento ágil (Scrum)</li>
         </ul>
