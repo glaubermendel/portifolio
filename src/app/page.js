@@ -1,13 +1,14 @@
-import Link from 'next/link'
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen px-8 py-16 max-w-4xl mx-auto">
       <section className="mb-16">
-        <h1 className="text-5xl md:text-6xl font-nier uppercase tracking-widest cursor-pointer hover:text-nier-beige/80 transition-colors">
-          <Link href="/" rel="prefetch" className="no-underline">
-            Glauber Mendel
-          </Link>
-        </h1>
+   <h1 className="text-5xl md:text-6xl font-nier uppercase tracking-widest cursor-pointer group relative overflow-hidden">
+  <Link href="/" rel="prefetch" className="no-underline block">
+    <span className="relative z-10">Glauber Mendel</span>
+    <span className="absolute inset-0 bg-gradient-to-r from-transparent via-nier-beige/20 to-transparent -skew-x-12 transform -translate-x-full group-hover:translate-x-full transition-transform duration-500"></span>
+  </Link>
+</h1>
         <div className="w-16 h-px bg-nier-beige mb-6"></div>
         <p className="text-nier-beige/60 tracking-widest text-sm uppercase mb-8">
           Desenvolvedor Full Stack

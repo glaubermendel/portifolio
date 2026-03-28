@@ -17,10 +17,13 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body className={mono.className}>
         <header className="flex justify-between items-center px-8 py-4 border-b border-nier-line">
+         
           <div>
+            <Link href="/" rel="prefetch" className="no-underline">
             <div className="text-nier-beige text-xl tracking-widest uppercase">
-              Glauber Mendel
-            </div>
+              Glauber Mendel 
+            </div> </Link>
+
             <div className="text-nier-beige/50 text-sm tracking-widest">
               Dev Full Stack
             </div>
