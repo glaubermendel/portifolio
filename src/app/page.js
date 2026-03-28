@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Home() {
   return (
     <main className="min-h-screen px-8 py-16 max-w-4xl mx-auto">
@@ -12,18 +13,18 @@ export default function Home() {
           Desenvolvedor Full Stack
         </p>
         <div className="flex gap-4">
-          <a
+          <Link
             href="/sobre"
             className="border border-nier-beige text-nier-beige px-6 py-2 text-sm tracking-widest uppercase hover:bg-nier-beige hover:text-nier-black transition-colors"
           >
             Saiba Mais
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contato"
             className="border border-nier-line text-nier-beige/70 px-6 py-2 text-sm tracking-widest uppercase hover:border-nier-beige hover:text-nier-beige transition-colors"
           >
             Entre em Contato
-          </a>
+          </Link>
         </div>
       </section>
 
